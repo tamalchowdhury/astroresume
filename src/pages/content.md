@@ -2,7 +2,7 @@
 layout: "../layouts/BlogPost.astro"
 title: "Content Creation"
 description: "This is how I create content"
-updatedDate: "Nov 1 2022"
+updatedDate: "Dec 1 2022"
 # heroImage: "/placeholder-about.jpg"
 ---
 

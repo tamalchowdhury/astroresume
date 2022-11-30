@@ -2,7 +2,7 @@
 layout: "../layouts/BlogPost.astro"
 title: "About Tamal Chowdhury"
 description: "All about Tamal Chowdhury"
-updatedDate: "Nov 1 2022"
+updatedDate: "Dec 1 2022"
 # heroImage: "/placeholder-about.jpg"
 ---
 
