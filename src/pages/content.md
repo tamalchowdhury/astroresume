@@ -1,9 +1,9 @@
 ---
 layout: "../layouts/BlogPost.astro"
 title: "Content Creation"
-description: "Lorem ipsum dolor sit amet"
+description: "This is how I create content"
 updatedDate: "Nov 1 2022"
-heroImage: "/placeholder-about.jpg"
+# heroImage: "/placeholder-about.jpg"
 ---
 
 Content creation has been a huge part of my daily routine ever since I been online. I started writing blogs as a way to share my knowledge and make money online. I created my first blogs in the blogspot platform. People enjoy reading my blogs, because it has easy language, short paragraphs, and lots of images. My early blog posts had lots of screenshots to help my reader do something step-by-step.

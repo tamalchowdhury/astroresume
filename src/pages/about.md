@@ -1,9 +1,9 @@
 ---
 layout: "../layouts/BlogPost.astro"
 title: "About Tamal Chowdhury"
-description: "Lorem ipsum dolor sit amet"
+description: "All about Tamal Chowdhury"
 updatedDate: "Nov 1 2022"
-heroImage: "/placeholder-about.jpg"
+# heroImage: "/placeholder-about.jpg"
 ---
 
 When someone asks me what I do for a living, I tell them "I am a software engineer". This is because it's easy to give them a one-line answer. But if you really want to know, my identity is more than just writing code. I'm a problem solver, dreamer, creator, and self-improver.
