@@ -7,11 +7,11 @@ updatedDate: "Apr 7 2023"
 ---
 
 ## Photos
-<img src="./../../public/tamal-anwar-chowdhury-in-red-bg.jpg" width="250" height="333" alt="Tamal Anwar Chowdhury on red background" />
+<img src="/tamal-anwar-chowdhury-in-red-bg.jpg" width="250" height="333" alt="Tamal Anwar Chowdhury on red background" />
 
-<img src="./../../public/tamal-anwar-chowdhury-at-ratargul-swamp-forest.jpg" width="250" height="333" alt="Tamal Anwar Chowdhury at ratargul swamp forest" />
+<img src="/public/tamal-anwar-chowdhury-at-ratargul-swamp-forest.jpg" width="250" height="333" alt="Tamal Anwar Chowdhury at ratargul swamp forest" />
 
-<img src="./../../public/tamal-anwar-chowdhury-at-arcadia-sylhet.jpg" width="250" height="333" alt="Tamal Anwar Chowdhury at arcadia sylhet" />
+<img src="/public/tamal-anwar-chowdhury-at-arcadia-sylhet.jpg" width="250" height="333" alt="Tamal Anwar Chowdhury at arcadia sylhet" />
 
 
 More high res [photos in Google Drive](https://drive.google.com/drive/folders/1_P6qUCtjoYgApKHZVhtrJU4HaM8xYFNy)
