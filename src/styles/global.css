@@ -16,9 +16,25 @@
 	font-display: swap;
 }
 
+.menu {
+	font-family: "Shamim", Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+}
+
+.menu a {
+	color: white;
+	text-shadow:
+	3px 3px 0 #000,
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+}
+
 .bangla {
 	font-family: "Shamim", Arial, Helvetica, sans-serif;
 	color: var(--yellow);
+	font-size: 2.5rem;
 	
 	text-shadow:
 	3px 3px 0 #000,
@@ -31,6 +47,7 @@
 
 .en {
 	font-size: 1rem;
+	color: #fff;
 
 }
 
@@ -40,11 +57,38 @@
 	margin-left: -2rem;
 }
 
-.heading h1 {
+.heading h1, .heading p {
 	margin: 0;
 	
 }
 
+.content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+
+}
+
+
+.item {
+	background: plum;
+	aspect-ratio: 9/16;
+	border-radius: 7px;
+
+	box-shadow: -10px 10px 0 palevioletred;
+}
+
+.item.one {
+
+}
+
+.item.two {
+	margin-top: -20px;
+}
+
+.item.three {
+	margin-top: -40px;
+}
 
 
 body {
@@ -52,11 +96,11 @@ body {
 	margin: auto;
 	padding: 20px;
 	text-align: left;
-	background-color: #fff;
+	background-color: darkslateblue;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: #fff;
 }
 
 .wrapper {
