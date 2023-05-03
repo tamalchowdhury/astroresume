@@ -3,25 +3,17 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../config';
 ---
 
-<header>
+<header class="wrapper">
   <h2>
     {SITE_TITLE}
   </h2>
   <nav>
     <HeaderLink href='/'>Home</HeaderLink>
     <HeaderLink href='/bio'>Biography</HeaderLink>
+    <HeaderLink href='/resume'>Resume</HeaderLink>
     <HeaderLink href='/software-engineering'>Software Engineering</HeaderLink>
     <HeaderLink href='/content'>Content Creation</HeaderLink>
     <HeaderLink href='/community'>Community Building</HeaderLink>
-    <HeaderLink href='https://twitter.com/tamalchow' target='_blank'
-      >Twitter</HeaderLink
-    >
-    <HeaderLink href='https://github.com/tamalchowdhury' target='_blank'
-      >GitHub</HeaderLink
-    >
-    <HeaderLink href='https://linkedin.com/in/tamalchowdhury' target='_blank'
-      >Linkedin</HeaderLink
-    >
   </nav>
 </header>
 <style>

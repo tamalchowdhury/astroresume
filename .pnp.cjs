@@ -1354,7 +1354,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prompts", "npm:2.4.2"],\
             ["recast", "npm:0.20.5"],\
             ["rehype", "npm:12.0.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
             ["rollup", "npm:2.79.1"],\
             ["semver", "npm:7.3.8"],\
             ["shiki", "npm:0.11.1"],\
@@ -1364,7 +1364,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strip-ansi", "npm:7.0.1"],\
             ["supports-esm", "npm:1.0.0"],\
             ["tsconfig-resolver", "npm:3.0.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"],\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"],\
             ["unist-util-visit", "npm:4.1.1"],\
             ["vfile", "npm:5.3.6"],\
             ["vite", "virtual:0423da7a54b8b1e34aa2f2f884da6931a2df49372b6006358e08083f0c8a96b613181f3a9c49e555034ff6780bb7350fa504716af5a356a95f0822ade62d22de#npm:3.2.4"],\
@@ -2699,10 +2699,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["fsevents", [\
-        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1", {\
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-2882183fbf/node_modules/fsevents/",\
+        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7", {\
+          "packageLocation": "./.yarn/unplugged/fsevents-patch-3340e2eb10/node_modules/fsevents/",\
           "packageDependencies": [\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
             ["node-gyp", "npm:9.3.0"]\
           ],\
           "linkType": "HARD"\
@@ -5293,10 +5293,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["resolve", [\
-        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d", {\
-          "packageLocation": "./.yarn/cache/resolve-patch-0c52e0e4f7-5656f4d0be.zip/node_modules/resolve/",\
+        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-46f9469d0d-5656f4d0be.zip/node_modules/resolve/",\
           "packageDependencies": [\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
             ["is-core-module", "npm:2.11.0"],\
             ["path-parse", "npm:1.0.7"],\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
@@ -5414,7 +5414,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/rollup-npm-2.79.1-94e707a9a3-6a2bf167b3.zip/node_modules/rollup/",\
           "packageDependencies": [\
             ["rollup", "npm:2.79.1"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5977,7 +5977,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/json5", "npm:0.0.30"],\
             ["@types/resolve", "npm:1.20.2"],\
             ["json5", "npm:2.2.1"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
             ["strip-bom", "npm:4.0.0"],\
             ["type-fest", "npm:0.13.1"]\
           ],\
@@ -6020,10 +6020,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-b9b216bc0d-67ca21a387.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-692cf54e2c-ef65c22622.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6296,10 +6296,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/sugarss", null],\
             ["@types/terser", null],\
             ["esbuild", "npm:0.15.16"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
+            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"],\
             ["less", null],\
             ["postcss", "npm:8.4.19"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
             ["rollup", "npm:2.79.1"],\
             ["sass", null],\
             ["stylus", null],\
@@ -6625,7 +6625,6 @@ const StringDecoder = require('string_decoder');
 const url = require('url');
 const os = require('os');
 const nodeUtils = require('util');
-const readline = require('readline');
 const assert = require('assert');
 const stream = require('stream');
 const zlib = require('zlib');
@@ -6850,8 +6849,7 @@ function areStatsEqual(a, b) {
 
 const PortablePath = {
   root: `/`,
-  dot: `.`,
-  parent: `..`
+  dot: `.`
 };
 const Filename = {
   nodeModules: `node_modules`,
@@ -10416,7 +10414,7 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
 }
 
-class NodePathFS extends ProxiedFS {
+class URLFS extends ProxiedFS {
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -10425,17 +10423,9 @@ class NodePathFS extends ProxiedFS {
     return path;
   }
   mapToBase(path) {
-    if (typeof path === `string`)
-      return path;
     if (path instanceof url.URL)
       return url.fileURLToPath(path);
-    if (Buffer.isBuffer(path)) {
-      const str = path.toString();
-      if (Buffer.byteLength(str) !== path.byteLength)
-        throw new Error(`Non-utf8 buffers are not supported at the moment. Please upvote the following issue if you encounter this error: https://github.com/yarnpkg/berry/issues/4942`);
-      return str;
-    }
-    throw new Error(`Unsupported path type: ${nodeUtils.inspect(path)}`);
+    return path;
   }
 }
 
@@ -10538,12 +10528,6 @@ class FileHandle {
     } finally {
       this[kUnref]();
     }
-  }
-  readLines(options) {
-    return readline.createInterface({
-      input: this.createReadStream(options),
-      crlfDelay: Infinity
-    });
   }
   async stat(opts) {
     try {
@@ -10730,7 +10714,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `writeSync`
 ]);
 function patchFs(patchedFs, fakeFs) {
-  fakeFs = new NodePathFS(fakeFs);
+  fakeFs = new URLFS(fakeFs);
   const setupFn = (target, name, replacement) => {
     const orig = target[name];
     target[name] = replacement;
@@ -15240,9 +15224,6 @@ function getPathForDisplay(p) {
   return npath.normalize(npath.fromPortablePath(p));
 }
 
-const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
-const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2;
-
 const builtinModules = new Set(require$$0.Module.builtinModules || Object.keys(process.binding(`natives`)));
 const isBuiltinModule = (request) => request.startsWith(`node:`) || builtinModules.has(request);
 function readPackageScope(checkPath) {
@@ -15277,19 +15258,13 @@ Instead change the require of ${basename} in ${parentPath} to a dynamic import()
   err.code = `ERR_REQUIRE_ESM`;
   return err;
 }
-function reportRequiredFilesToWatchMode(files) {
-  if (process.env.WATCH_REPORT_DEPENDENCIES && process.send) {
-    files = files.map((filename) => npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))));
-    if (WATCH_MODE_MESSAGE_USES_ARRAYS) {
-      process.send({ "watch:require": files });
-    } else {
-      for (const filename of files) {
-        process.send({ "watch:require": filename });
-      }
-    }
+
+const shouldReportRequiredModules = process.env.WATCH_REPORT_DEPENDENCIES;
+function reportModuleToWatchMode(filename) {
+  if (shouldReportRequiredModules && process.send) {
+    process.send({ "watch:require": npath.fromPortablePath(VirtualFS.resolveVirtual(npath.toPortablePath(filename))) });
   }
 }
-
 function applyPatch(pnpapi, opts) {
   const defaultCache = {};
   let enableNativeHooks = true;
@@ -15349,7 +15324,7 @@ function applyPatch(pnpapi, opts) {
     }
     const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
     module.pnpApiPath = moduleApiPath;
-    reportRequiredFilesToWatchMode([modulePath]);
+    reportModuleToWatchMode(modulePath);
     entry.cache[modulePath] = module;
     if (isMain) {
       process.mainModule = module;
@@ -16707,7 +16682,6 @@ Required by: ${issuerLocator.name}@${issuerLocator.reference} (via ${issuerForDi
     if (qualifiedPath) {
       return ppath.normalize(qualifiedPath);
     } else {
-      reportRequiredFilesToWatchMode(candidates.map((candidate) => npath.fromPortablePath(candidate)));
       const unqualifiedPathForDisplay = getPathForDisplay(unqualifiedPath);
       const containingPackage = findPackageLocator(unqualifiedPath);
       if (containingPackage) {

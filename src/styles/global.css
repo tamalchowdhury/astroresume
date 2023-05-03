@@ -3,6 +3,50 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+
+ :root {
+	--yellow: #ffeb01;
+ }
+
+@font-face {
+	font-family: "Shamim";
+	src: url('/fonts/LiShamimCholontikaUnicode-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.bangla {
+	font-family: "Shamim", Arial, Helvetica, sans-serif;
+	color: var(--yellow);
+	
+	text-shadow:
+	3px 3px 0 #000,
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+	
+}
+
+.en {
+	font-size: 1rem;
+
+}
+
+.heading {
+	transform: rotate(-4deg);
+	margin-bottom: 3rem;
+	margin-left: -2rem;
+}
+
+.heading h1 {
+	margin: 0;
+	
+}
+
+
+
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
