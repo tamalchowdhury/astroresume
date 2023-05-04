@@ -23,6 +23,7 @@
 }
 
 .site_title a {
+	color: var(--yellow);
 	text-decoration: none;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .menu a {
-	color: white;
+	color: var(--shade);
 	/* text-shadow:
 	3px 3px 0 #000,
 	-1px -1px 0 #000,  
@@ -79,8 +80,8 @@
 }
 
 .heading nav a:hover {
-	background: var(--yellow);
-	color: #333;
+	background: var(--shade);
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -149,7 +150,7 @@ b {
 	font-family:  Arial, Helvetica, sans-serif;
 }
 a {
-	color: var(--yellow);
+	color: var(--shade);
 }
 nav a {
 	margin-right: 10px;
