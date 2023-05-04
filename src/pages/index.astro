@@ -14,6 +14,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
     />
   </head>
   <body>
+    <div itemscope itemtype='https://schema.org/WebSite'>
+      <meta itemprop='url' content='https://tamalchowdhury.com/' />
+      <meta itemprop='name' content='Tamal Anwar Chowdhury' />
+    </div>
     <Header title={SITE_TITLE} />
     <>
       <div class='wrapper'>
@@ -26,6 +30,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
         <div class='heading'>
           <h1 class='en'>Show Don't Tell</h1>
           <h1 class='bangla'>কথা কম কাজ বেশি</h1>
+          <p>Check out some of my best software work:</p>
         </div>
 
         <div class='content'>
@@ -38,21 +43,77 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
         <div class='heading'>
           <h1 class='en'>Featured Content</h1>
-          <h1 class='bangla'>সবচেয়ে জোস কাজগুলা</h1>
-          <p>
-            I am going big on videos these days. Check out some of my best
-            videos here.
-          </p>
+          <h1 class='bangla'>সবচেয়ে জোস ভিডিওগুলা</h1>
+          <p>I am going big on videos these days.</p>
+          <p>Check out some of my best videos here.</p>
         </div>
 
         <div class='content'>
-          <div class='item one'></div>
-          <div class='item two'></div>
-          <div class='item three'></div>
+          <div class='item one'>
+            <a
+              href='https://www.tiktok.com/@tamalchow/video/7218895918823640321'
+              target='_blank'
+            >
+              <img
+                src='/img/thumb_wifi.jpg'
+                alt='No wifi after power cut video'
+              />
+            </a>
+          </div>
+          <div class='item two'>
+            <a
+              href='https://www.tiktok.com/@tamalchow/video/7217767040415796482'
+              target='_blank'
+            >
+              <img
+                src='/img/thumb_javajs.jpg'
+                alt='Are Java and JavaScript the same?'
+              />
+            </a>
+          </div>
+          <div class='item three'>
+            <a
+              href='https://www.tiktok.com/@tamalchow/video/7218596054202207490'
+              target='_blank'
+            >
+              <img
+                src='/img/thumb_cyb.jpg'
+                alt='Cybersecurity setup in mobile'
+              />
+            </a>
+          </div>
         </div>
 
-        <h1>My Inspirations</h1>
-        <p>Rockstar Games websites have been a huge inspiration in my life.</p>
+        <!-- <div class='heading'>
+          <h1 class='en'>Latest News</h1>
+          <h1 class='bangla'>লেটেস্ট খবর</h1>
+          <p>A blog feed will follow here..</p>
+        </div> -->
+        <div class='heading'>
+          <h1 class='en'>Connect with Me</h1>
+          <h1 class='bangla'>সোশাল মিডিয়াগুলা</h1>
+        </div>
+        <nav class='socials'>
+          <a href='https://facebook.com/tamalchowdhury.profile' target='_blank'
+            >Facebook</a
+          >
+          <a href='https://instagram.com/tamalchowdhury.insta' target='_blank'
+            >Instagram</a
+          >
+          <a href='https://tiktok.com/@tamalchow' target='_blank'>TikTok</a>
+          <a href='https://twitter.com/tamalchow' target='_blank'>Twitter</a>
+          <a href='https://www.youtube.com/@tamalchowdhury' target='_blank'
+            >YouTube</a
+          >
+          <a href='https://linkedin.com/in/tamalchowdhury' target='_blank'
+            >Linkedin</a
+          >
+          <a href='https://github.com/tamalchowdhury' target='_blank'>GitHub</a>
+          <a
+            href='https://play.google.com/store/apps/dev?id=5350464485153942303'
+            target='_blank'>Google Play</a
+          >
+        </nav>
       </div>
     </>
     <Footer />
