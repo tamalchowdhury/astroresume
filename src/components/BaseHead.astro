@@ -14,9 +14,6 @@ const {
   description,
   image = '/tamal-anwar-chowdhury-og.png',
 } = Astro.props;
-const metaTitle = "Tamal Anwar Chowdhury's Developer Advocate Resume";
-const metaDesc =
-  'Tamal Anwar Chowdhury is a software engineer and developer advocate from Bangladesh. He is currently looking for his next role in tech. Check out the resume';
 ---
 
 <!-- Global Metadata -->
@@ -24,6 +21,7 @@ const metaDesc =
 <meta name='viewport' content='width=device-width,initial-scale=1' />
 <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
 <meta name='generator' content={Astro.generator} />
+<meta name='theme-color' content='#50A4AB' />
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
@@ -32,7 +30,7 @@ const metaDesc =
 
 <!-- Open Graph / Facebook -->
 <meta property='og:type' content='website' />
-<meta property='og:site_name' content='Tamal Chowdhury' />
+<meta property='og:site_name' content='Tamal Anwar Chowdhury' />
 <meta property='og:url' content={Astro.url} />
 <meta property='og:title' content={title} />
 <meta property='og:description' content={description} />

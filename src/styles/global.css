@@ -18,19 +18,28 @@
 	font-display: swap;
 }
 
+.wrapper section {
+	margin-block-end: 2rem;
+}
+
+.site_title a {
+	text-decoration: none;
+}
+
 .menu {
-	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
+	font-weight: bold;
 }
 
 .menu a {
 	color: white;
-	text-shadow:
+	/* text-shadow:
 	3px 3px 0 #000,
 	-1px -1px 0 #000,  
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
-	1px 1px 0 #000;  
+	1px 1px 0 #000;   */
 }
 
 .bangla {
@@ -62,6 +71,17 @@
 .heading h1, .heading p {
 	margin: 0;
 	
+}
+
+.heading nav a {
+	padding: 10px;
+
+}
+
+.heading nav a:hover {
+	background: var(--yellow);
+	color: #333;
+	text-decoration: none;
 }
 
 .content {
@@ -126,7 +146,7 @@ h6,
 strong,
 b {
 	color: var(--yellow);
-	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	font-family:  Arial, Helvetica, sans-serif;
 }
 a {
 	color: var(--yellow);
@@ -177,5 +197,21 @@ blockquote {
 @media screen and (max-width: 1000px) {
 	.heading {
 		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.menu a {
+		padding: 5px;
+	}
+
+	.bangla {
+		font-size: 2rem;
+	}
+
+	.heading nav a {
+		font-size: 1.2rem;
+		display: inline-block;
+		padding: 5px;
 	}
 }
