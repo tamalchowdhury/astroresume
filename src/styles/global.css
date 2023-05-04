@@ -3,16 +3,113 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+
+ :root {
+	--yellow: #ffeb01;
+	--bg: #142951;
+	--shade: #50A4AB;
+ }
+
+@font-face {
+	font-family: "Shamim";
+	src: url('/fonts/LiShamimCholontikaUnicode-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.menu {
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+}
+
+.menu a {
+	color: white;
+	text-shadow:
+	3px 3px 0 #000,
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+}
+
+.bangla {
+	font-family: "Shamim", Arial, Helvetica, sans-serif;
+	color: var(--yellow);
+	font-size: 2.5rem;
+	
+	text-shadow:
+	3px 3px 0 #000,
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+	
+}
+
+.en {
+	font-size: 1rem;
+	color: #fff;
+
+}
+
+.heading {
+	transform: rotate(-4deg);
+	margin-bottom: 3rem;
+	margin-left: -2rem;
+}
+
+.heading h1, .heading p {
+	margin: 0;
+	
+}
+
+.content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+
+}
+
+.item img {
+	display: block;
+}
+
+
+.item {
+	background: white;
+	aspect-ratio: 9/16;
+	border-radius: 7px;
+	overflow: hidden;
+
+	box-shadow:
+	-2px 2px 10px #333,	
+	-10px 10px 0 var(--shade);
+}
+
+.item.one {
+
+}
+
+.item.two {
+	margin-top: -20px;
+}
+
+.item.three {
+	margin-top: -40px;
+}
+
+
 body {
 	font-family: Verdana, sans-serif;
 	margin: auto;
 	padding: 20px;
 	text-align: left;
-	background-color: #fff;
+	background-color: var(--bg);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: #fff;
 }
 
 .wrapper {
@@ -28,10 +125,11 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: var(--yellow);
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
 }
 a {
-	color: #3273dc;
+	color: var(--yellow);
 }
 nav a {
 	margin-right: 10px;
@@ -69,4 +167,15 @@ blockquote {
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
+}
+
+
+.footer {
+	font-size: .8rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.heading {
+		margin-left: 0;
+	}
 }

@@ -14,32 +14,129 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
     />
   </head>
   <body>
+    <div itemscope itemtype='https://schema.org/WebSite'>
+      <meta itemprop='url' content='https://tamalchowdhury.com/' />
+      <meta itemprop='name' content='Tamal Anwar Chowdhury' />
+    </div>
     <Header title={SITE_TITLE} />
     <>
       <div class='wrapper'>
-        <h1>Tamal Anwar Chowdhury, Bangladeshi Software Engineer</h1>
         <p>
-          Hey, you just landed on my website. I am a software engineer, content
-          creator and do developer advocacy for various software products.
-          Currently looking for my next role in tech so please check out my
-          resume below 👇
-        </p>
-        <p>
-          <a
-            href='https://docs.google.com/document/d/1bdVDfordarXoFk2KWJSCbKJ-BYEaztCJgM0ytKri5dY/edit?usp=sharing'
-            target='_blank'>View the Resume on Google Drive</a
-          >
+          Hello, it's Tamal Anwar Chowdhury, Bangladeshi Software Engineer and
+          content creator. You will find everything you need to know about me
+          here.
         </p>
 
-        <p>Enjoy your visit!</p>
+        <!-- <div class='heading'>
+          <h1 class='en'>Show Don't Tell</h1>
+          <h1 class='bangla'>কথা কম কাজ বেশি</h1>
+          <p>Check out some of my best software work:</p>
+        </div>
+
+        <div class='content'>
+          <div class='item one'></div>
+          <div class='item two'></div>
+          <div class='item three'></div>
+        </div> -->
+
+        <section>
+          <div class='heading'>
+            <h1 class='en'>Featured Content</h1>
+            <h1 class='bangla'>সবচেয়ে জোস ভিডিওগুলা</h1>
+            <p>
+              I am going big on videos these days. Check out some of my best
+              videos here.
+            </p>
+          </div>
+
+          <div class='content'>
+            <div class='item one'>
+              <a
+                href='https://www.tiktok.com/@tamalchow/video/7218895918823640321'
+                target='_blank'
+              >
+                <img
+                  src='/img/thumb_wifi.jpg'
+                  alt='No wifi after power cut video'
+                />
+              </a>
+            </div>
+            <div class='item two'>
+              <a
+                href='https://www.tiktok.com/@tamalchow/video/7217767040415796482'
+                target='_blank'
+              >
+                <img
+                  src='/img/thumb_javajs.jpg'
+                  alt='Are Java and JavaScript the same?'
+                />
+              </a>
+            </div>
+            <div class='item three'>
+              <a
+                href='https://www.tiktok.com/@tamalchow/video/7218596054202207490'
+                target='_blank'
+              >
+                <img
+                  src='/img/thumb_cyb.jpg'
+                  alt='Cybersecurity setup in mobile'
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- <div class='heading'>
+          <h1 class='en'>Latest News</h1>
+          <h1 class='bangla'>লেটেস্ট খবর</h1>
+          <p>A blog feed will follow here..</p>
+        </div> -->
+        <section>
+          <div class='heading'>
+            <h1 class='en'>Connect with Me</h1>
+            <h1 class='bangla'>সোশাল মিডিয়াগুলা</h1>
+
+            <nav class='socials'>
+              <a
+                href='https://facebook.com/tamalchowdhury.profile'
+                target='_blank'>Facebook</a
+              >
+              <a
+                href='https://instagram.com/tamalchowdhury.insta'
+                target='_blank'>Instagram</a
+              >
+              <a href='https://tiktok.com/@tamalchow' target='_blank'>TikTok</a>
+              <a href='https://twitter.com/tamalchow' target='_blank'>Twitter</a
+              >
+              <a href='https://www.youtube.com/@tamalchowdhury' target='_blank'
+                >YouTube</a
+              >
+              <a href='https://linkedin.com/in/tamalchowdhury' target='_blank'
+                >Linkedin</a
+              >
+              <a href='https://github.com/tamalchowdhury' target='_blank'
+                >GitHub</a
+              >
+              <a
+                href='https://play.google.com/store/apps/dev?id=5350464485153942303'
+                target='_blank'>Google Play</a
+              >
+            </nav>
+          </div>
+          <section>
+            <div class='heading'>
+              <h1 class='en'>Other Pages</h1>
+              <h1 class='bangla'>অন্যান্য পেজগুলা</h1>
+              <nav>
+                <a href='/software-engineering'>Software Engineering</a>
+                <a href='/content'>Content Creation</a>
+                <a href='/community'>Community Building</a>
+              </nav>
+            </div>
+          </section>
+        </section>
       </div>
-
-      <iframe
-        src='https://docs.google.com/document/d/1bdVDfordarXoFk2KWJSCbKJ-BYEaztCJgM0ytKri5dY/edit?usp=sharing'
-        frameborder='0'
-        width='100%'
-        height='800px'></iframe>
+      <Footer />
     </>
-    <Footer />
   </body>
 </html>
