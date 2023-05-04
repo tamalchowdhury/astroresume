@@ -19,8 +19,8 @@
 }
 
 .menu {
-	font-family: "Shamim", Arial, Helvetica, sans-serif;
-	font-size: 1.2rem;
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
+	font-size: 1rem;
 }
 
 .menu a {
@@ -125,7 +125,8 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: var(--yellow);
+	font-family: "Arial Black", Arial, Helvetica, sans-serif;
 }
 a {
 	color: var(--yellow);
@@ -166,4 +167,15 @@ blockquote {
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
+}
+
+
+.footer {
+	font-size: .8rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.heading {
+		margin-left: 0;
+	}
 }
