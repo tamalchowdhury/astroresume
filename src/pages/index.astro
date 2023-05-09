@@ -3,6 +3,10 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+const URL = 'https://blogkoritheme.blogspot.com/feeds/posts/default?alt=json';
+const response = await fetch(URL);
+const data = await response.json();
+const posts = data.feed.entry;
 ---
 
 <!DOCTYPE html>
@@ -86,11 +90,22 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
           </div>
         </section>
 
-        <!-- <div class='heading'>
+        <div class='heading'>
           <h1 class='en'>Latest News</h1>
           <h1 class='bangla'>লেটেস্ট খবর</h1>
           <p>A blog feed will follow here..</p>
-        </div> -->
+        </div>
+        <!-- blog posts -->
+        {
+          posts.map((post) => {
+            return (
+              <div>
+                <p>{post.title['$t']}</p>
+                <p>{post.content['$t']}</p>
+              </div>
+            );
+          })
+        }
         <section>
           <div class='heading' id='socials'>
             <h1 class='en'>Connect with Me</h1>
